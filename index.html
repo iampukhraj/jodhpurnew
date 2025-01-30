@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jodhpur Tourism</title>
+    <link rel="icon" type="image/x-icon" href="https://ilgin.it/wp-content/uploads/2015/04/jodhpur-logo.jpg">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: rgba(245, 245, 245, 0.9);
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            background: url(https://wallpaperaccess.com/full/3214984.jpg) no-repeat center center fixed;
+            background-size: cover;
+            opacity: 0.4;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        h1 {
+            color: #4a148c;
+            padding: 20px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .nav button {
+            background: #673ab7;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .nav button:hover {
+            transform: translateY(-2px);
+            background: #512da8;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #673ab7;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f5f5f5;
+        }
+
+        img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+        }
+
+        a {
+            color: #311b92;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+            }
+            
+            img {
+                width: 100px;
+                height: 75px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore the Blue City - Jodhpur</h1>
+    
+    <div class="nav">
+        <button onclick="window.location.href='#'">Home</button>
+        <button onclick="window.location.href='about.html'">About Jodhpur</button>
+    </div>
+
+    <table>
+        <tr>
+            <th>Place</th>
+            <th>Photos</th>
+            <th>Distance from Railway Station</th>
+            <th>Time for visit</th>
+        </tr>
+        <tr>
+            <td>Mehrangargh fort</td>
+            <td><a href="https://en.wikipedia.org/wiki/Mehrangarh"target="_blank"><img
+                        src="https://www.themaharajaexpress.org/blog/wp-content/uploads/2018/05/Mehrangarh-Fort-Jodhpur.jpg"
+                        width="100px" alt=""></a>
+            </td>
+            <td> <a href="https://www.google.co.in/maps/dir/Jodhpur+Railway+Station,+Jodhpur+Junction,+Maharaja+Umaid+Singh+Statue+Circle,+Station+Rd,+Ratanada,+Jodhpur,+Rajasthan+342001/Mehrangarh+Fort+and+Museum,+Fort+Road,+Sodagaran+Mohalla,+Jodhpur,+Rajasthan/@26.2942984,73.0091093,14.25z/am=t/data=!4m13!4m12!1m5!1m1!1s0x39418d259a9b2fd7:0x2618c60b5d6a0b4d!2m2!1d73.0225936!2d26.2837429!1m5!1m1!1s0x39418db7f5a4e8d5:0x91c3eb1d93338906!2m2!1d73.0194423!2d26.2997314" target="_blank" >5 km </a></td>
+            <td>09:00-17:00</td>
+        </tr>
+        <tr>
+            <td>Umaid Bhawan Place</td>
+            <td><a href="https://en.wikipedia.org/wiki/Umaid_Bhawan_Palace"target="_blank"><img src="https://www.visittnt.com/blog/wp-content/uploads/2018/05/umaid-bhawan.jpg" width="100px"
+                    alt=""></a></td>
+            <td>5.8 km </td>
+            <td>09:00-17:00</td>
+        </tr>
+        <tr>
+            <td>Jaswant Thada</td>
+            <td><a href="https://en.wikipedia.org/wiki/Jaswant_Thada"target="_blank"><img src="https://i.pinimg.com/originals/f1/59/60/f15960f66deb6fef7a4862158cc7205c.jpg" width="100px"
+                    alt=""></a></td>
+            <td>5 Km</td>
+            <td>09:00-17:00</td>
+        </tr>
+        <tr>
+            <td>Machia Biological Park</td>
+            <td><a href="https://www.holidify.com/places/jodhpur/machia-biological-park-sightseeing-120754.html"target="_blank"><img src="https://media-cdn.tripadvisor.com/media/photo-s/1a/33/ff/3d/entrance.jpg" width="100px"
+                    alt=""></a></td>
+            <td>8 Km</td>
+            <td>08:00-17:00</td>
+        </tr>
+        <tr>
+            <td>Mandore Garden</td>
+            <td><a href="http://www.jodhpurindia.net/gardens/mandore-garden.html"target="_blank"><img src="https://www.swantour.com/blogs/wp-content/uploads/2018/07/Mandore-Gardens-Jodhpur.jpg"
+                    width="100px" alt=""></a</td>
+            <td>9.5 Km</td>
+            <td>09:00-22:00</td>
+        </tr>
+        <tr>
+            <td>Ganesh Temple Ratanada</td>
+            <td><a href="https://www.aapnojodhpur.com/ratanada-ganesh-mandir-pratham-pujya-in-aapno-jodhpur/"target="_blank"><img src="https://th.bing.com/th/id/R.a262288d79f49042772cf1f8758a511a?rik=Kn3eJUZiyb2OCA&riu=http%3a%2f%2fwww.suncityjodhpur.com%2fwp-content%2fuploads%2f2016%2f02%2fShri-Ganesh-Temple-Jodhpur.jpg&ehk=IfZSbTe%2bX%2bSx14uCCui2HsNk9oWece1zAu8B%2bSeB5Pk%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
+                    width="100px" alt=""></a></td>
+            <td>5 Km</td>
+            <td>05:00-22:00</td>
+        </tr>
+        <tr>
+            <td>Kaylana Lake</td>
+            <td><a href="https://en.wikipedia.org/wiki/Kaylana_Lake"target="_blank"><img src="https://th.bing.com/th/id/R.bde5d0eb61c2f8854b1ef72cd0d98879?rik=2nPhusz5FwR8LQ&riu=http%3a%2f%2fwww.transindiatravels.com%2fwp-content%2fuploads%2fkaylana-lake-jodhpur.jpg&ehk=yTmC0SgaG5ubtS%2fEFkSfbJcI4%2ftTDDTpHytz2ckjgoE%3d&risl=&pid=ImgRaw&r=0"
+                    width="100px" alt=""></a></td>
+            <td>9 Km</td>
+            <td>06:00-06:00</td>
+        </tr>
+        <tr>
+            <td>Samrat Ashok Udhyan</td>
+            <td><a href="https://taxiservicesjodhpur.com/samrat-ashok-udhyan-jodhpur/"target="_blank"><img src="https://www.jodhpursearch.com/wp-content/uploads/2021/04/Ashok-Udhyan-BEST-PLACES-TO-EAT-Street-food-in-Jodhpur-600x450.jpg"
+                    width="100px" alt=""></a></td>
+            <td>7.5 km</td>
+            <td>06:00-10:00</td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>Discover Jodhpur's Rich Heritage &copy; 2023 | Created by Pukh Raj</p>
+    </footer>
+</body>
+</html>

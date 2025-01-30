@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Jodhpur - The Blue City</title>
+    <meta name="description" content="Discover the rich history and cultural heritage of Jodhpur, Rajasthan's Blue City">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            position: relative;
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            background: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/jodhpur-the-blue-city-tony-crehan.jpg) no-repeat center center/cover;
+            opacity: 0.3;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .content-wrapper {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c0d02;
+            font-size: 2.8em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .about-content {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+
+        .about-content p {
+            font-size: 1.1em;
+            color: #2d2d2d;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .map-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-family: 'Trebuchet MS', sans-serif;
+        }
+
+        .nav-button {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .nav-button a {
+            display: inline-block;
+            padding: 10px 25px;
+            background: #4a148c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .nav-button a:hover {
+            background: #6a1b9a;
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 20px 15px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .about-content {
+                padding: 20px;
+            }
+
+            .about-content p {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <h1>Discover Jodhpur - The Blue City</h1>
+        
+        <div class="nav-button">
+            <a href="index.html">← Back to Home</a>
+        </div>
+
+        <div class="about-content">
+            <p>Jodhpur, the second largest city in Rajasthan, is popularly known as the Blue City. This nickname is 
+                particularly apt as most of the architecture - including forts, palaces, temples, havelis, and even 
+                residential houses - are painted in striking shades of blue.</p>
+
+            <p>The city is dominated by the magnificent Mehrangarh Fort, which stands atop a 125-meter high hill. 
+                This imposing structure features thick walls, intricate carvings, and seven gates that lead into 
+                the ancient walled city. The fort's museum houses an exquisite collection of palanquins, howdahs, 
+                royal cradles, miniatures, musical instruments, costumes, and furniture.</p>
+
+            <p>Jodhpur is also renowned for the Marwari or Malani horse breed, known for its distinctive inward-turning 
+                ear tips. The city's vibrant markets offer traditional textiles, metalware, and handicrafts, while 
+                its cuisine features local specialties like Mirchi Bada and Mawa Kachori.</p>
+        </div>
+
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228974.37607169448!2d72.89045963604549!3d26.270599312932305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c4eaa06ccb9%3A0x8114ea5b0ae1abb8!2sJodhpur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1672199597205!5m2!1sen!2sin"
+                allowfullscreen="" 
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>Explore the Majesty of Rajasthan &copy; 2023 | Created by Pukh Raj</p>
+    </footer>
+</body>
+</html>
